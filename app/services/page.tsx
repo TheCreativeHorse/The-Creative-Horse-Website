@@ -330,7 +330,6 @@ export default function ServicesPage() {
                                 className="w-16 h-1 bg-cyan-400 mx-auto mt-3 rounded-full group-hover:opacity-100 group-hover:w-20 transition-all duration-500" 
                               />
                             </>
-                          )}
                           
                           {/* Icon glow effect - only for non-video services */}
                           {service.title !== 'Website Development' && service.title !== 'AI Voice Agents' && service.title !== 'Social Media Marketing' && service.title !== 'Analytics & Reporting' && service.title !== 'Graphic Design' && service.title !== 'Content Strategy' && service.title !== 'SEO Optimization' && service.title !== 'Google Ads Management' && (
