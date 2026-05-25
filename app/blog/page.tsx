@@ -18,7 +18,7 @@ export default async function BlogPage() {
     <main className="min-h-screen bg-white py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-primary-navy mb-4">Blog</h1>
-        <p className="text-gray-500 mb-12">Digital marketing tips, SEO strategies, and web design insights.</p>
+        <p className="text-gray-500 mb-12">Digital marketing tips, SEO strategies, and web design insights for GTA businesses.</p>
         <div className="grid gap-8">
           {posts.length === 0 && (
             <p className="text-gray-400">No posts yet. Check back soon.</p>
