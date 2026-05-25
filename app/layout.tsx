@@ -3,6 +3,8 @@ import { Inter, Roboto } from 'next/font/google'
 import './globals.css'
 import { SmoothScrollProvider } from '@/components/smooth-scroll-provider'
 import { Chatbot } from '@/components/chatbot'
+import { TheCreativeHorseNavbar } from '@/components/navbar'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -73,11 +75,13 @@ export default function RootLayout({
         />
       </head>
       <body className="font-inter antialiased">
-        <SmoothScrollProvider>
-          {children}
-          <Chatbot />
-        </SmoothScrollProvider>
-      </body>
+  <SmoothScrollProvider>
+  <TheCreativeHorseNavbar />
+{children}
+<Footer />
+<Chatbot />
+  </SmoothScrollProvider>
+</body>
     </html>
   )
 }

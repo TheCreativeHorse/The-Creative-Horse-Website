@@ -47,33 +47,39 @@ export function TheCreativeHorseNavbar() {
       </NavBody>
 
       {/* Mobile Navigation */}
-      <MobileNav className="!fixed !top-4 !left-4 !right-4 !z-50 lg:hidden">
-        <MobileNavHeader>
-          {/* Mobile Logo */}
-          <Logo href="/" size="md" variant="blue" />
-
-          {/* Mobile Navigation Items - Show directly on mobile */}
-          <div className="flex items-center space-x-2">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.link}
-                className="px-2 py-1 text-xs font-medium text-white hover:text-primary-lime transition-colors uppercase whitespace-nowrap"
-              >
-                {item.name}
-              </Link>
-            ))}
-            
-            {/* Mobile Contact Button */}
-            <NavbarButton 
-              href="/contact" 
-              className="px-3 py-1 text-xs bg-primary-blue text-white hover:bg-primary-blue/90 whitespace-nowrap"
-            >
-              Contact
-            </NavbarButton>
-          </div>
-        </MobileNavHeader>
-      </MobileNav>
+      {/* Mobile Navigation */}
+<MobileNav className="!fixed !top-4 !left-4 !right-4 !z-50 lg:hidden !bg-transparent">
+  <MobileNavHeader>
+    <Logo href="/" size="md" variant="blue" />
+    <div className="flex items-center gap-2">
+      <NavbarButton 
+        href="/contact" 
+        className="px-3 py-1 text-xs bg-primary-blue text-white hover:bg-primary-blue/90 whitespace-nowrap"
+      >
+        Contact
+      </NavbarButton>
+      <MobileNavToggle
+        isOpen={isMobileMenuOpen}
+        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+      />
+    </div>
+  </MobileNavHeader>
+  <MobileNavMenu
+    isOpen={isMobileMenuOpen}
+    onClose={() => setIsMobileMenuOpen(false)}
+  >
+    {navItems.map((item) => (
+      <Link
+        key={item.name}
+        href={item.link}
+        onClick={() => setIsMobileMenuOpen(false)}
+        className="w-full py-2 text-sm font-medium text-black uppercase"
+      >
+        {item.name}
+      </Link>
+    ))}
+  </MobileNavMenu>
+</MobileNav>
     </Navbar>
   )
 }
