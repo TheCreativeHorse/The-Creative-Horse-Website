@@ -14,7 +14,6 @@ export const metadata: Metadata = {
   },
 }
 import { TheCreativeHorseNavbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 import { HeroGemini } from '@/components/hero-gemini'
 import { AnimatedFeaturesSection } from '@/components/animated-features'
 import { BrandsTrustUs } from '@/components/brands-trust-us'
@@ -154,7 +153,6 @@ export default function HomePage() {
           </div>
         </div>
       </section> 
-      <Footer />
     </main>
   )
 }

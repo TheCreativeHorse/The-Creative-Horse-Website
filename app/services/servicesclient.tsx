@@ -3,7 +3,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { TheCreativeHorseNavbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { SparklesCore } from '@/components/ui/sparkles'
@@ -362,8 +361,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-
-      <Footer />
     </main>
   )
 }

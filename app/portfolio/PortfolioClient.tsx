@@ -1,7 +1,6 @@
 "use client";
 
 import { TheCreativeHorseNavbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { ArrowRight, ExternalLink, Eye } from 'lucide-react'
@@ -611,8 +610,6 @@ function PortfolioContent() {
         </section>
       )}
 
-
-      <Footer />
     </main>
   )
 }

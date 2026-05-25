@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 
 import { TheCreativeHorseNavbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Timeline } from '@/components/ui/timeline'
@@ -168,8 +167,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }

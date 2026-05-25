@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { TheCreativeHorseNavbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -377,7 +376,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <Footer />
     </main>
   )
 }
