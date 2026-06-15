@@ -100,7 +100,7 @@ export default function SEOMississaugaPage() {
                 { title: 'Local SEO Mississauga', desc: 'Rank in Google\'s local pack when customers in Mississauga, Toronto, and the GTA search for your services.', link: '/services/seo-mississauga/local-seo' },
                 { title: 'Google My Business Optimization', desc: 'Your GMB profile is your most powerful local ranking tool. We optimize it to get you into the top 3 map results.', link: '/services/seo-mississauga/google-my-business' },
                 { title: 'Technical SEO Audits', desc: 'Fix the hidden issues that are silently killing your rankings — canonical errors, page speed, schema markup, and more.' },
-                { title: 'Content & Keyword Strategy', desc: 'We identify exactly what your Mississauga customers are searching for and build content that ranks for those terms.' },
+                { title: 'Content & Keyword Strategy', desc: 'We identify exactly what your Mississauga customers are searching for and build content that ranks for those terms. Learn how AI automation fits into your digital strategy.', link: '/blog/ai-automation-small-business' },
                 { title: 'Link Building', desc: 'Build authority with high-quality local backlinks from GTA businesses, directories, and industry publications.' },
                 { title: 'Monthly Reporting', desc: 'Clear, jargon-free reports showing exactly where you rank, how much traffic you\'re getting, and how many leads SEO is generating.' },
               ].map((item) => (
