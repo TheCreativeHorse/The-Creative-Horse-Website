@@ -15,6 +15,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'website-design-plumbers-hvac-mississauga',
+    category: 'Web Design',
+    readTime: '7 min read',
+    title: 'Website Design for Plumbers and HVAC Companies in Mississauga: What Actually Works',
+    excerpt: 'Most contractor websites do not generate calls. Here is what actually needs to be on a plumber or HVAC website to turn visitors into booked jobs.',
+    date: 'June 2026',
+  },
+  {
     slug: 'ai-automation-small-business',
     category: 'AI & Automation',
     readTime: '8 min read',
