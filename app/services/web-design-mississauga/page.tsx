@@ -33,13 +33,13 @@ export default function WebDesignMississaugaPage() {
               We have built 100+ websites for small and medium businesses across Mississauga, Toronto, and the GTA. Affordable, fast, and built to generate real leads.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-  <a href="/contact" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-    Start Your Project Today
-  </a>
-  <a href="/services/seo-mississauga" className="inline-block border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
-    Also Need SEO?
-  </a>
-</div>
+              <a href="/contact" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                Start Your Project Today
+              </a>
+              <a href="/services/seo-mississauga" className="inline-block border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
+                Also Need SEO?
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -103,11 +103,12 @@ export default function WebDesignMississaugaPage() {
             <p className="text-lg text-gray-600 text-center mb-12">
               Whether you need a Shopify store, a WordPress site, or a fully custom build — we have done it all for GTA businesses.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 { title: 'Shopify Websites', desc: 'E-commerce stores built on Shopify for Mississauga businesses ready to sell online. Fast setup, easy to manage.', link: '/services/web-design-mississauga/shopify-developer' },
                 { title: 'WordPress Websites', desc: 'Flexible, SEO-friendly WordPress sites that you can manage yourself without needing a developer every time.', link: '/services/web-design-mississauga/wordpress-website' },
                 { title: 'Custom Websites', desc: 'Fully custom-built websites for businesses that need something unique, fast, and built to scale.', link: '/services/web-design-mississauga/custom-website' },
+                { title: 'Websites for Plumbers & HVAC', desc: 'Contractor websites built to generate calls — click-to-call, service area pages, and mobile-first design for home service businesses in the GTA.', link: '/blog/website-design-plumbers-hvac-mississauga' },
               ].map((item) => (
                 <div key={item.title} className="p-6 bg-white border border-gray-100 rounded-xl hover:border-blue-200 transition-colors">
                   <h3 className="text-xl font-semibold text-primary-navy mb-2">{item.title}</h3>
@@ -142,8 +143,9 @@ export default function WebDesignMississaugaPage() {
           </div>
         </div>
       </section>
-{/* FAQ Section */}
-<section className="py-20 bg-white">
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-white">
         <div className="container-max px-4 md:px-8 lg:px-20">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-roboto font-bold text-primary-navy mb-12 text-center">
@@ -233,7 +235,7 @@ export default function WebDesignMississaugaPage() {
           }),
         }}
       />
-      <Footer />
+
     </main>
   )
 }
