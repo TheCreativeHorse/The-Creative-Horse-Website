@@ -1,6 +1,5 @@
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
-import { postType } from './sanity/schemaTypes/post'
 
 export default defineConfig({
   projectId: '98p3gflh',
@@ -9,6 +8,6 @@ export default defineConfig({
   basePath: '/studio',
   plugins: [structureTool()],
   schema: {
-    types: [postType],
+    types: [],
   },
 })
