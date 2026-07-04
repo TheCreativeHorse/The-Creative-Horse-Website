@@ -15,6 +15,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'local-seo-checklist-mississauga',
+    category: 'Local SEO',
+    readTime: '9 min read',
+    title: 'Local SEO Checklist for Mississauga Small Businesses (2026)',
+    excerpt: 'A step-by-step checklist of everything a Mississauga small business needs to rank higher on Google Maps and get more local customers in 2026.',
+    date: 'July 2026',
+  },
+  {
     slug: 'website-design-plumbers-hvac-mississauga',
     category: 'Web Design',
     readTime: '7 min read',
