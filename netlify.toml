@@ -1,3 +1,8 @@
+[[redirects]]
+  from = "https://www.thecreativehorse.ca/*"
+  to = "https://thecreativehorse.ca/:splat"
+  status = 301
+  force = true
 [build]
   command = "npm run build"
   publish = ".next"
