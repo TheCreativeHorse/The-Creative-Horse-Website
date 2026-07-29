@@ -15,6 +15,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'google-business-profile-checklist-gta',
+    category: 'Local SEO',
+    readTime: '8 min read',
+    title: 'Google Business Profile Checklist for GTA Home Service Businesses (2026)',
+    excerpt: 'A step-by-step checklist of everything a GTA home service business needs to get right on Google Business Profile before spending another dollar on ads.',
+    date: 'July 2026',
+  },
+  {
     slug: 'local-seo-checklist-mississauga',
     category: 'Local SEO',
     readTime: '9 min read',
